@@ -38,15 +38,15 @@ API_KEY = getenv("API_KEY", None) # youtube song api key, generate free key or b
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Royalsongmusic/Royalkingqueen",
+    "https://github.com/Royalbot213/moonqueen",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ll_DPZ_WORLDS_ll")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/queenbotgrup")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+69GrnjHAAjNjOWI1")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/biomute_bot")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
